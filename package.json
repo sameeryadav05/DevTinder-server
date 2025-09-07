@@ -1,0 +1,32 @@
+{
+  "name": "devtinder-backend",
+  "version": "1.0.0",
+  "description": "Tinder kind of Application for Dev's",
+  "keywords": [
+    "node.js",
+    "express.js",
+    "mongoDB",
+    "first",
+    "Backend",
+    "project"
+  ],
+  "homepage": "https://github.com/sameeryadav05/DevTinder-server#readme",
+  "bugs": {
+    "url": "https://github.com/sameeryadav05/DevTinder-server/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sameeryadav05/DevTinder-server.git"
+  },
+  "license": "ISC",
+  "author": "Sameer Manoj kumar yadav",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/app.js",
+    "dev":"nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
